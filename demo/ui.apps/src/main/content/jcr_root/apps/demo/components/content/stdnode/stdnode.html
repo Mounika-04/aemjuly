@@ -1,0 +1,9 @@
+<div data-sly-use.blog="com.aem.community.core.pojo.MultiListComponent">
+  <h4>Composite Multifield</h4>
+  <ol data-sly-list.student="${blog.multiItems}">
+     <li>
+        ${student.firstName} has ${student.lastName} with boolean 
+        ${student.address}
+     </li>
+  </ol>
+</div>
